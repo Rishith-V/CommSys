@@ -1,0 +1,13 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large binary files
+*.wav
+*.mp4
+*.zip
+*.tar
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
