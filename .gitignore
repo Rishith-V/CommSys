@@ -17,8 +17,15 @@ __pycache__/
 # ### Editor/IDE ignores ###
 # #################################
 
-# VS Code
-.vscode/
+# Ignore most VS Code configuration files
+.vscode/*
+
+# But DO NOT ignore the workspace settings file
+!.vscode/settings.json
+
+# Also ignore user-specific state if it gets created
+.vscode/launch.json
+.vscode/tasks.json
 
 # Jupyter Notebook
 .ipynb_checkpoints/
