@@ -53,3 +53,7 @@ __pycache__/
 *.zip
 *.tar
 *.tar.gz
+
+# Misc
+CommSys_A3_377_Name.zip
+Instructions_CommSys_Lab_Updated.pdf
