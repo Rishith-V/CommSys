@@ -1,13 +1,48 @@
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Large binary files
-*.wav
-*.mp4
-*.zip
-*.tar
-*.tar.gz
+# #################################
+# ### Python-specific ignores ###
+# #################################
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment folders
+# Never commit your virtual environment folder
+.venv/
+/comms-lab/  # In case you create a local env folder
+
+# #################################
+# ### Editor/IDE ignores ###
+# #################################
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+
+# #################################
+# ### Generated Output Files ###
+# #################################
+
+# Generated plots and figures
+# It's even better to put these in a 'plots' or 'output' directory
+# and then add that directory here, e.g., "plots/"
+*.png
+*.svg
+*.jpg
+*.jpeg
+
+# Generated audio
+*.wav
+
+
+# #################################
+# ### Compressed files ###
+# #################################
+*.zip
+*.tar
+*.tar.gz
